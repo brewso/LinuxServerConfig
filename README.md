@@ -12,7 +12,7 @@ Install Flask and other dependencies `sudo pip install Flask`
 Cloned app repo into server using git `apt-get install git-core` then `git clone https://github.com/brewso/Catalog`  
 Created new apache site availible `sudo nano /etc/apache2/sites-available/appwsgi.conf`  
 Activated new site `sudo a2ensite appwsgi`  
-Deactivate default site  `sudo a2dissite 000-default`
+Deactivate default site  `sudo a2dissite 000-default`  
 Found and fixed any errors by referencing apache error.log
 
 Used [this tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)  
